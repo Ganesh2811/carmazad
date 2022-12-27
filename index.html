@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car-Mazad</title>
+    <link
+      as='font'
+      crossorigin=""
+      href="fonts/poppins700.woff2"
+      rel="preload"
+      type="font/woff2"
+    />
+    <link
+      as='font'
+      crossorigin=""
+      href="fonts/roboto400.woff2"
+      rel="preload"
+      type="font/woff2"
+    />
+    <link
+    as='font'
+    crossorigin=""
+    href="fonts/poppins400.woff2"
+    rel="preload"
+    type="font/woff2"
+  />
+    <style>
+      @font-face {
+        font-family: "Poppins";
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        src: url("fonts/poppins700.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Roboto Condensed";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("fonts/roboto400.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("fonts/poppins400.woff2") format("woff2");
+      }
+    </style>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+        <header>
+            <div class="container">
+                <!-- header part 1 -->
+                <div class="header-1">
+                    <!-- menu bar logo for mobile -->
+                    <img src="./images/menubarmobile.PNG" alt="menubarlogo" title="menubarlogo" class="menubar-lg">
+                    <img src="./images/logo1.png" alt="logo-1" title="logo-1" class="logo-1">
+                    <nav class="navbar">
+                        <ul>
+                            <li class="active">
+                                <a href="#" class="active">vehicles</a>
+                            </li>
+                            <li>
+                                <a href="#">faqs</a>
+                            </li>
+                            <li>
+                                <a href="#">CONTACT US</a>
+                            </li>
+                            <li>
+                                <img src="./images/uaeflag.png" alt="uae-flag" title="Uae-Flag" class="uae-logo">
+                            </li>
+                            <div class="sign-btn">
+                                <img src="./images/signlogo.png" alt="signlogo" title="signlogo" class="sign-logo">
+                                <a href="#">sign in</a>
+                            </div>
+                        </ul>
+                    </nav>
+                    <!-- sign btn for mobile -->
+                    <div class="signbtn-box">
+                        <img src="./images/signlogo.png" alt="signbtnmob" title="signbtnmob" class="signbtn-mobile">
+                    </div>
+                </div>
+                <!-- header part 2 -->
+                <div class="header-2">
+                  <form action="#" class="form-part1">
+                   <label for="search-main">
+                    <img src="./images/searchbtn.PNG" alt="searchbtn" title="searchbtn" class="search-btn">
+                   </label>
+                    <input type="search" placeholder="Toyota camry 2020" class="search-part" id="search-main">
+                    <label for="by-time-main"></label>
+                    <select name="time" id="by-time-main">
+                      <option value="one">By Time</option>
+                      <option value="two">one</option>
+                      <option value="three">two</option>
+                      <option value="three">three</option>
+                    </select>
+                  </form>
+                  <div class="icon-box">
+                    <img src="./images/menubar2.PNG" alt="menubar2" title="menubar2" class="menubar-2">
+                    <img src="./images/menubar3.PNG" alt="menubar3" title="menubar3" class="menubar-3">
+                  </div>  
+                </div>
+                <!-- header part 3 -->
+                <div class="header-3"> 
+                <form action="#" class="form-part2">
+                  <div class="left-formbox">
+                  <label for="damage-main"></label>
+                  <select name="damage-type" id="damage-main">
+                    <option value="">Damage Type</option>
+                    <option value="">one</option>
+                    <option value="">two</option>
+                    <option value="">three</option>
+                    <option value="">four</option>
+                  </select>
+                  <div class="starbox-main">
+                  <div class="star-box">
+                    <img src="./images/starticon.svg" alt="staricon" title="staricon" class="star-icon">
+                  </div>
+                  <p class="star-desc">Show Favorites</p>
+                </div>
+                </div>
+                <div class="right-formbox">
+                  <label class="checkbox-container"><span class="checkbox-desc">Live Auctions</span>
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkbox-container"><span class="checkbox-desc">Coming Soon</span>
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkbox-container"><span class="checkbox-desc">Ended Auctions</span>
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                </form>
+                </div>
+                <!-- for mobile -->
+                <div class="header-4">
+                  <div class="leftheader-4">
+                    <form action="#" class="formhead-4">
+                      <label for="damage-main"></label>
+                    <select name="damage-type" id="damage-main">
+                      <option value="">Damage Type</option>
+                      <option value="">one</option>
+                      <option value="">two</option>
+                      <option value="">three</option>
+                      <option value="">four</option>
+                    </select>
+                    </form>
+                  </div>
+                  <div class="rightheader-4">
+                    <div class="mobicon-add">
+                      <div class="star-box">
+                        <img src="./images/starticon.svg" alt="staricon" title="staricon" class="star-icon">
+                      </div>
+                      <img src="./images/menubar2.PNG" alt="menubar2" title="menubar2" class="menubar-2">
+                      <img src="./images/menubar3.PNG" alt="menubar3" title="menubar3" class="menubar-3">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </header>
+    <!-- header end -->
+    <!-- section start -->
+    <section class="container sec-flexbox">
+      <div class="secmain-left">
+        <div class="sec-form-box">
+            <form action="#" class="sec-form">
+              <div>
+              <label for="sec-form-input"></label>
+              <select name="Make" id="sec-form-input">
+                <option value="1">Make</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div>
+              <label for="sec-form-input"></label>
+              <select name="Model" id="sec-form-input">
+                <option value="1">Model</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div>
+              <label for="sec-form-input"></label>
+              <select name="City" id="sec-form-input">
+                <option value="1">City</option>
+                <option value="2">Mumbai</option>
+                <option value="3">Pune</option>
+                <option value="4">Hyedrabad</option>
+              </select>
+            </div>
+           <div class="form-destination">
+            <div class="form-from">
+              <label for="form-from-1"></label>
+              <select name="from" id="form-from-1">
+                <option value="1">From</option>
+                <option value="1">Mumbai</option>
+                <option value="1">Pune</option>
+                <option value="1">Delhi</option>
+              </select>
+            </div>
+            <div class="form-from">
+              <label for="form-from-1"></label>
+              <select name="To" id="form-from-1">
+                <option value="1">To</option>
+                <option value="1">Mumbai</option>
+                <option value="1">Pune</option>
+                <option value="1">Delhi</option>
+              </select>
+            </div>
+           </div> 
+            <div>
+              <label for="sec-form-input"></label>
+              <input type="search" id="sec-form-input" placeholder="Auction ID" class="auction-id">
+            </div>
+            <div class="sec-range-main">
+              <label for="sec-range">Current Bid</label>
+              <input type="text" id="sec-range">
+            </div>
+            <div class="sec-btn">
+              <img src="./images/searchbtn-1.svg" alt="searchbtn-1" title="searchbtn-1" class="searchbtn-1">
+              <button type="submit">
+                SEARCH
+              </button>
+            </div>
+            <div class="sec-reset-main">
+              <input type="reset" value="RESET" class="sec-reset">
+            </div>
+            </form>
+        </div>
+      </div>
+      <div class="secmain-right">
+      <div class="car-box">
+        <div class="carbox-inner"> 
+         <p class="box-head1">Thursday 12 Dec 2019 - 15:10</p>
+         <div class="car-img">
+         <img src="./images/carimg3.png" alt="car-img" title="car-img" class="car-img-1">
+         <img src="./images/starimg.svg" alt="starimg" title="starimg" class="star-img">
+         <div class="law-box">
+          <img src="./images/law-logo.svg" alt="law logo" title="lawlogo" class="law-logo">
+         </div>
+        </div>
+        <div class="box-head2">
+          <p class="part1">Toyota Camry SE</p>
+          <span>2019</span>
+        </div>
+        <div class="box-head2">
+          <p class="vehhead-1">
+              <img src="./images/overturn-veh.svg" alt="overturn-veh" title="overturn-veh" class="overturn-veh">
+            <span>Accident</span>
+          </p>
+          <p class="vehhead-2">7.7784 views</p>
+        </div>
+       <div class="boxhead-3">
+        <div class="headpart-3A">
+          <img src="./images/locationpin.svg" alt="locationpin" title="locationpin" class="locationpin">
+        </div>
+        <div class="headpart-3B">
+          <span>location</span>
+          <p>Riyadh Yard, Saudi Arabia</p>
+        </div>
+       </div>
+       <div class="boxhead-4">
+        <div class="part4-A">
+         <img src="./images/greenlaw.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+         <span class="head4">Sold for
+          <p class="head5">23111
+            <span class="head6">SAR</span>
+          </p>
+         </span>
+        </div>
+        <div class="part4-A">
+          <img src="./images/moneylogo.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+          <span class="head4">Sold for
+           <p class="head5">23111
+             <span class="head6">SAR</span>
+           </p>
+          </span>
+         </div>
+       </div>
+       <div class="boxhead-5">
+       <p>Views 3 bids</p> 
+       </div>
+       </div>
+      </div>
+      <div class="car-box">
+        <div class="carbox-inner"> 
+         <p class="box-head1">Thursday 12 Dec 2019 - 15:10</p>
+         <div class="car-img">
+         <img src="./images/carimg2.png" alt="car-img" title="car-img" class="car-img-1">
+         <img src="./images/starimg1.svg" alt="starimg" title="starimg" class="star-img">  
+         <div class="law-box">
+          <img src="./images/law-logo.svg" alt="law logo" title="lawlogo" class="law-logo">
+         </div>
+        </div>
+        <div class="box-head2">
+          <p class="part1">Toyota Camry SE</p>
+          <span>2019</span>
+        </div>
+        <div class="box-head2">
+          <p class="vehhead-1">
+              <img src="./images/overturn-veh.svg" alt="overturn-veh" title="overturn-veh" class="overturn-veh">
+            <span>Accident</span>
+          </p>
+          <p class="vehhead-2">7.7784 views</p>
+        </div>
+       <div class="boxhead-3">
+        <div class="headpart-3A">
+          <img src="./images/locationpin.svg" alt="locationpin" title="locationpin" class="locationpin">
+        </div>
+        <div class="headpart-3B">
+          <span>location</span>
+          <p>Riyadh Yard, Saudi Arabia</p>
+        </div>
+       </div>
+       <div class="boxhead-4">
+        <div class="part4-A">
+         <img src="./images/greenlaw.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+         <span class="head4">Sold for
+          <p class="head5">23111
+            <span class="head6">SAR</span>
+          </p>
+         </span>
+        </div>
+        <div class="part4-A">
+          <img src="./images/moneylogo.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+          <span class="head4">Sold for
+           <p class="head5">23111
+             <span class="head6">SAR</span>
+           </p>
+          </span>
+         </div>
+       </div>
+       <div class="boxhead-5">
+       <p>Views 3 bids</p> 
+       </div>
+       </div>
+      </div>
+      <div class="car-box">
+        <div class="carbox-inner"> 
+         <p class="box-head1">Thursday 12 Dec 2019 - 15:10</p>
+         <div class="car-img">
+         <img src="./images/carimg3.png" alt="car-img" title="car-img" class="car-img-1">
+         <img src="./images/starimg1.svg" alt="starimg" title="starimg" class="star-img"> 
+         <div class="law-box">
+            <img src="./images/law-logo.svg" alt="law logo" title="lawlogo" class="law-logo">
+         </div>
+        </div>
+        <div class="box-head2">
+          <p class="part1">Toyota Camry SE</p>
+          <span>2019</span>
+        </div>
+        <div class="box-head2">
+          <p class="vehhead-1">
+              <img src="./images/overturn-veh.svg" alt="overturn-veh" title="overturn-veh" class="overturn-veh">
+            <span>Accident</span>
+          </p>
+          <p class="vehhead-2">7.7784 views</p>
+        </div>
+       <div class="boxhead-3">
+        <div class="headpart-3A">
+          <img src="./images/locationpin.svg" alt="locationpin" title="locationpin" class="locationpin">
+        </div>
+        <div class="headpart-3B">
+          <span>location</span>
+          <p>Riyadh Yard, Saudi Arabia</p>
+        </div>
+       </div>
+       <div class="boxhead-4">
+        <div class="part4-A">
+         <img src="./images/greenlaw.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+         <span class="head4">Sold for
+          <p class="head5">23111
+            <span class="head6">SAR</span>
+          </p>
+         </span>
+        </div>
+        <div class="part4-A">
+          <img src="./images/moneylogo.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+          <span class="head4">Sold for
+           <p class="head5">23111
+             <span class="head6">SAR</span>
+           </p>
+          </span>
+         </div>
+       </div>
+       <div class="boxhead-5">
+       <p>Views 3 bids</p> 
+       </div>
+       </div>
+      </div>
+      <div class="car-box">
+        <div class="carbox-inner"> 
+         <p class="box-head1">Thursday 12 Dec 2019 - 15:10</p>
+         <div class="car-img">
+         <img src="./images/carimg4.png" alt="car-img" title="car-img" class="car-img-1">
+         <img src="./images/starimg1.svg" alt="starimg" title="starimg" class="star-img"> 
+         <div class="law-box">
+          <img src="./images/law-logo.svg" alt="law logo" title="lawlogo" class="law-logo">
+         </div>
+        </div>
+        <div class="box-head2">
+          <p class="part1">Toyota Camry SE</p>
+          <span>2019</span>
+        </div>
+        <div class="box-head2">
+          <p class="vehhead-1">
+              <img src="./images/overturn-veh.svg" alt="overturn-veh" title="overturn-veh" class="overturn-veh">
+            <span>Accident</span>
+          </p>
+          <p class="vehhead-2">7.7784 views</p>
+        </div>
+       <div class="boxhead-3">
+        <div class="headpart-3A">
+          <img src="./images/locationpin.svg" alt="locationpin" title="locationpin" class="locationpin">
+        </div>
+        <div class="headpart-3B">
+          <span>location</span>
+          <p>Riyadh Yard, Saudi Arabia</p>
+        </div>
+       </div>
+       <div class="boxhead-4">
+        <div class="part4-A">
+         <img src="./images/greenlaw.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+         <span class="head4">Sold for
+          <p class="head5">23111
+            <span class="head6">SAR</span>
+          </p>
+         </span>
+        </div>
+        <div class="part4-A">
+          <img src="./images/moneylogo.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+          <span class="head4">Sold for
+           <p class="head5">23111
+             <span class="head6">SAR</span>
+           </p>
+          </span>
+         </div>
+       </div>
+       <div class="boxhead-5">
+       <p>Views 3 bids</p> 
+       </div>
+       </div>
+      </div>
+      <div class="car-box">
+        <div class="carbox-inner"> 
+         <p class="box-head1">Thursday 12 Dec 2019 - 15:10</p>
+         <div class="car-img">
+         <img src="./images/carimg5.png" alt="car-img" title="car-img" class="car-img-1">
+         <img src="./images/starimg1.svg" alt="starimg" title="starimg" class="star-img"> 
+         <div class="law-box">
+          <img src="./images/law-logo.svg" alt="law logo" title="lawlogo" class="law-logo">
+         </div>
+        </div>
+        <div class="box-head2">
+          <p class="part1">Toyota Camry SE</p>
+          <span>2019</span>
+        </div>
+        <div class="box-head2">
+          <p class="vehhead-1">
+              <img src="./images/overturn-veh.svg" alt="overturn-veh" title="overturn-veh" class="overturn-veh">
+            <span>Accident</span>
+          </p>
+          <p class="vehhead-2">7.7784 views</p>
+        </div>
+       <div class="boxhead-3">
+        <div class="headpart-3A">
+          <img src="./images/locationpin.svg" alt="locationpin" title="locationpin" class="locationpin">
+        </div>
+        <div class="headpart-3B">
+          <span>location</span>
+          <p>Riyadh Yard, Saudi Arabia</p>
+        </div>
+       </div>
+       <div class="boxhead-4">
+        <div class="part4-A">
+         <img src="./images/greenlaw.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+         <span class="head4">Sold for
+          <p class="head5">23111
+            <span class="head6">SAR</span>
+          </p>
+         </span>
+        </div>
+        <div class="part4-A">
+          <img src="./images/moneylogo.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+          <span class="head4">Sold for
+           <p class="head5">23111
+             <span class="head6">SAR</span>
+           </p>
+          </span>
+         </div>
+       </div>
+       <div class="boxhead-5">
+       <p>Views 3 bids</p> 
+       </div>
+       </div>
+      </div>
+      <div class="car-box">
+        <div class="carbox-inner"> 
+         <p class="box-head1">Thursday 12 Dec 2019 - 15:10</p>
+         <div class="car-img">
+         <img src="./images/carimg6.png" alt="car-img" title="car-img" class="car-img-1">
+         <img src="./images/starimg1.svg" alt="starimg" title="starimg" class="star-img"> 
+         <div class="law-box">
+          <img src="./images/law-logo.svg" alt="law logo" title="lawlogo" class="law-logo">
+         </div>
+        </div>
+        <div class="box-head2">
+          <p class="part1">Toyota Camry SE</p>
+          <span>2019</span>
+        </div>
+        <div class="box-head2">
+          <p class="vehhead-1">
+              <img src="./images/overturn-veh.svg" alt="overturn-veh" title="overturn-veh" class="overturn-veh">
+            <span>Accident</span>
+          </p>
+          <p class="vehhead-2">7.7784 views</p>
+        </div>
+       <div class="boxhead-3">
+        <div class="headpart-3A">
+          <img src="./images/locationpin.svg" alt="locationpin" title="locationpin" class="locationpin">
+        </div>
+        <div class="headpart-3B">
+          <span>location</span>
+          <p>Riyadh Yard, Saudi Arabia</p>
+        </div>
+       </div>
+       <div class="boxhead-4">
+        <div class="part4-A">
+         <img src="./images/greenlaw.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+         <span class="head4">Sold for
+          <p class="head5">23111
+            <span class="head6">SAR</span>
+          </p>
+         </span>
+        </div>
+        <div class="part4-A">
+          <img src="./images/moneylogo.svg" alt="law logo-2" title="law logo-2" class="lawlogo-2">
+          <span class="head4">Sold for
+           <p class="head5">23111
+             <span class="head6">SAR</span>
+           </p>
+          </span>
+         </div>
+       </div>
+       <div class="boxhead-5">
+       <p>Views 3 bids</p> 
+       </div>
+       </div>
+      </div>
+        
+         <div class="gotopage">
+          <span class="spanactive">1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+          <span>10</span>
+          <span>11</span>
+          <span>12</span>
+          <span>
+            <img src="./images/paginationarrow.svg" alt="pagination-arrow" title="paginattion-arrow" class="pagination-arrow">
+          </span>
+          </div>
+      </div>
+    </section>
+    <!-- section end -->
+    <!-- footer start -->
+    <footer class="footer-desk">
+     <div class="container footer-main">
+      <img src="./images/logo1.png" alt="footerlogo" title="footerlogo" class="footerlogo">
+      <ul class="footer-list">
+        <li>
+          <a href="#" >TERMS & CONDITIONS</a>
+        </li>
+        <li>
+          <a href="#" >PRIVACY POLICY</a>
+        </li>
+        <li>
+          <a href="#" >FAQS</a>
+        </li>
+      </ul>
+      <p class="footer-list-1">QUESTIONS?<a href="#">SUPPORT@CARMAZAD.COM</a></p>
+      <div class="footer-logoicon">
+        <a href="#"><img src="./images/instalogo.svg" alt="instalogo" title="instalogo"></a>
+       <a href="#"><img src="./images/fblogo.svg" alt="fblogo" title="fblogo"></a>
+       <a href="#"><img src="./images/twitterlogo.svg" alt="twitterlogo" title="twitterlogo"></a>
+      </div>
+     </div>
+    </footer>
+    <!-- footer for mobile -->
+    <footer class="footer-mob">
+        <div class="footer-top">
+          <img src="./images/footermoblogo.svg" alt="footermoblogo" title="footermoblogo" class="footermoblogo">
+          <div class="footermob-iconn">
+            <a href="#"><img src="./images/instalogo.svg" alt="instalogo" title="instalogo"></a>
+            <a href="#"><img src="./images/fblogo.svg" alt="fblogo" title="fblogo"></a>
+            <a href="#"><img src="./images/twitterlogo.svg" alt="twitterlogo" title="twitterlogo"></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>TERMS & CONDITIONS</span>
+          <span>FAQS</span>
+          <span><strong>RASAN</strong>PRODUCT</span>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <link rel="stylesheet" href="./js/main.js" />
+  </body>
+</html>
+
+
+
+
